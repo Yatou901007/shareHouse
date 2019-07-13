@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/projects",
+    "pages/index/house",
+    "pages/selected/selected",
+    "pages/setting/setting"
+  ],
+  "subPackages": [],
+  "window": {
+    "enablePullDownRefresh": true,
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#EEEEEE",
+    "backgroundColor": "#EEEEEE"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/template.png",
+        "selectedIconPath": "static/templateHL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/selected/selected",
+        "iconPath": "static/extui.png",
+        "selectedIconPath": "static/extuiHL.png",
+        "text": "备选房源"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "iconPath": "static/component.png",
+        "selectedIconPath": "static/componentHL.png",
+        "text": "我的设置"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "shareHouse",
+  "compilerVersion": "1.9.3",
+  "usingComponents": {}
+}

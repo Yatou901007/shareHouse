@@ -1,0 +1,68 @@
+$uni-color-theme: #b22222;
+@for $i from 0 through 10 { 
+  .ml#{$i * 5} { margin-left: 0rpx + $i * 5 !important; }
+  .mr#{$i * 5} { margin-right: 0rpx + $i * 5 !important; }
+  .mt#{$i * 5} { margin-top: 0rpx + $i * 5 !important; }
+  .mb#{$i * 5} { margin-bottom: 0rpx + $i * 5 !important; }
+}
+.view-title {
+	margin: 20rpx;
+}
+.clear-both {
+	clear: both;
+}
+.subtitle {
+	color: #999;
+}
+.tip-none {
+	color: $uni-color-theme!important;
+}
+.tip-primary {
+	color: #2d8cf0!important;
+}
+.tip-info {
+	color: #2db7f5!important;
+}
+.tip-success {
+	color: #19be6b!important;
+}
+.tip-warning {
+	color: #f90!important;
+}
+.tip-error {
+	color: #ed4014!important;
+}
+
+.subtitle-red {
+	color: red;
+}
+.no-data {
+	color: #999;
+	padding: 20rpx 30rpx;
+	font-size: 25rpx;
+}
+.small {
+	font-size: 25rpx;
+}
+.uni-table {
+	margin-top: 20rpx;
+	.uni-row-list {
+		margin-top: 5rpx;
+		background: #FFFFFF;
+		.uni-row {
+			display: flex;
+			align-items: center;
+			view {
+				font-size: 25rpx;
+			}
+			.uni-column {
+				text-align: center;
+				padding: 10rpx;
+				flex: 1;
+			}
+			&.head {
+				color: $uni-color-theme;
+			}
+		}
+	}
+}

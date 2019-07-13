@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "房源",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "uni-filters": "/components/uni-filters/uni-filters",
+    "uni-sorts": "/components/uni-sorts/uni-sorts"
+  }
+}
